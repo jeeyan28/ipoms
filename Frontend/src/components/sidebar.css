@@ -1,0 +1,195 @@
+.sidebar{
+    width:220px;
+    min-width:220px;
+    box-sizing:border-box;
+    background:#ffffff;
+    color:#17201b;
+    border-right:1px solid #e4e9e6;
+    box-shadow: 10px 0 35px rgba(23, 32, 27, .025);
+
+    display:flex;
+    flex-direction:column;
+
+    padding:28px 20px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:14px;
+
+    margin-bottom:45px;
+}
+
+.logo-circle{
+
+    width:54px;
+    height:54px;
+
+    border-radius:16px;
+
+    background:#f9e9ee;
+    color:#b32348;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:22px;
+    font-weight:700;
+
+}
+
+.logo-text h2{
+
+    margin:0;
+    color:#17201b;
+
+    font-size:22px;
+
+}
+
+.logo-text span{
+
+    color:#68736d;
+    font-size:13px;
+
+    opacity:.8;
+
+}
+
+nav{
+
+    flex:1;
+
+}
+
+nav ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}
+
+nav li{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    padding:14px 18px;
+
+    margin-bottom:4px;
+
+    border-radius:8px;
+
+    color:#69746e;
+
+    cursor:pointer;
+
+    transition:color .15s, background .15s;
+
+    font-size:15px;
+
+}
+
+nav li svg{
+
+    font-size:20px;
+
+}
+
+nav li:hover{
+
+    color:#b32348;
+    background:#fcf7f8;
+
+}
+
+nav li.active{
+
+    background:#f9e9ee;
+
+    color:#8f1738;
+
+    font-weight:650;
+
+}
+
+.sidebar-footer{
+
+    margin-top:auto;
+    display:grid;
+    gap:13px;
+
+}
+
+.logout-btn{
+
+    width:100%;
+
+    height:42px;
+
+    border:1px solid #e4e9e6;
+
+    border-radius:9px;
+
+    background:#ffffff;
+
+    color:#17201b;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    cursor:pointer;
+
+    font-size:13px;
+    font-weight:700;
+
+    transition:.2s;
+
+}
+
+.logout-btn:hover{
+
+    box-shadow: 0 6px 16px rgba(23, 32, 27, .09);
+    transform: translateY(-1px);
+
+}
+
+.signed-in{
+
+    display:grid;
+    gap:3px;
+
+    padding-top:12px;
+    border-top:1px solid #e4e9e6;
+
+    font-size:10px;
+
+}
+
+.signed-in span,
+.signed-in small{
+
+    color:#68736d;
+
+}
+
+.signed-in strong{
+
+    font-size:11px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+
+}

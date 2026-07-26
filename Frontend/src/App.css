@@ -1,0 +1,24 @@
+:root{
+  --primary:#b32348;
+  --primary-dark:#8f1738;
+  --background: #f6f7f6;
+  --card:#FFFFFF;
+  --text:#17201b;
+  --text-light:#68736d;
+  --border:#e4e9e6;
+  --radius:14px;
+  --shadow: 0 10px 28px rgba(23,32,27,.07)
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background:var(--background);
+  color:var(--text);
+}

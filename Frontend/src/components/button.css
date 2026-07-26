@@ -1,0 +1,27 @@
+.btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+
+    padding:12px 18px;
+
+    border:none;
+    border-radius:12px;
+
+    cursor:pointer;
+
+    background:var(--primary);
+    color:#fff;
+
+    font-weight:600;
+    white-space:nowrap;
+
+    transition:.25s;
+    box-shadow:var(--shadow);
+}
+
+.btn:hover{
+    background:var(--primary-dark);
+    transform:translateY(-2px);
+}
